@@ -140,14 +140,10 @@ PRODUCT_PACKAGES += \
     libmmosal \
     libmmparser \
     libExtendedExtractor \
-    libaudcal \
-    libacdbloader \
     libOmxAacDec \
     libOmxAmrwbplusDec \
     libOmxWmaDec \
     libaudioparsers \
-    lib_iec_60958_61937 \
-    qseecomd \
 
 PRODUCT_PACKAGES += \
     firmware_init \
