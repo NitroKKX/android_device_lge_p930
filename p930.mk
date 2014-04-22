@@ -194,42 +194,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.mdpcomp.logs=0 \
     debug.hwc.dynThreshold=1.9 \
 
-#    dev.pm.dyn_samplingrate=1 \
-#    ro.bq.gpu_to_cpu_unsupported=1 \
-#    persist.hwc.mdpcomp.enable=true \
-#    debug.gr.numframebuffers=2 \
-#    debug.egl.recordable.rgba8888=1 \
-#    ro.hwui.text_cache_width=1536 \
-#    ro.hwui.text_cache_height=256 \
-#    ro.hdmi.enable=true \
-#    persist.sys.ui.hw=1 \
-#debug.hwc.logvsync 0
-#debug.egl.swapinterval 1
-#debug.sf.dump.enable true
-#debug.mdpcomp.maxlayer 3
-#debug.hwc.dynThreshold 2
-#debug.gr.calcfps 1
-#debug.gr.calcfps.type 0
-#debug.gr.calcfps.timeperiod 1000
-#debug.gr.calcfps.period 10
-#debug.gr.calcfps.ignorethresh_us 500000
-#debug.sf.hw 0
-#debug.composition.type mdp
-#debug.gr.numframebuffers 2
-#debug.gralloc.map_fb_memory 1
-#debug.mdpcomp.mixedmode.disable 1
-#debug.mdpcomp.maxpermixer 1
-#debug.mdpcomp.logs 1
-#debug.mdpcomp.idletime 1
-#persist.hwc.mdpcomp.enable 1
-#persist.sys.wfd.virtual 0
-#persist.qcom.cabl.video_only 1
-#persist.sys.actionsafe.width 0
-#persist.sys.actionsafe.height 0
-#persist.user.panel3D 1
-#persist.gralloc.cp.level3 1
-#ro.qualcomm.cabl 1
-
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.adb.secure=0 \
     ro.secure=0 \
