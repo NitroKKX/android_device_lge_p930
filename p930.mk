@@ -23,10 +23,6 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-## Changelog
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/CHANGELOG.txt:system/etc/CHANGELOG-CM.txt \
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.iprj.rc:root/init.iprj.rc \
     $(LOCAL_PATH)/init.target.rc:root/init.target.rc \
