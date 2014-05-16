@@ -84,6 +84,7 @@ PRODUCT_COPY_FILES += \
 
 # Qcom Display
 PRODUCT_PACKAGES += \
+    camera.msm8660 \
     copybit.msm8660 \
     libexternal \
     libgenlock \
