@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- defaultValues need to be in sync with the default kernel values! -->
+
+	<PreferenceCategory
+    	android:title="@string/category_sdcard_cache_title">
+	    <ListPreference
+	        android:key="sdcard_cache"
+	        android:title="@string/sdcard_cache_title_head"
+	        android:summary="@string/sdcard_cache_summary_head"
+	        android:entries="@array/sdcard_cache_entries"
+	        android:entryValues="@array/sdcard_cache_values"
+	        android:defaultValue="256" />
+	</PreferenceCategory>
+
+	<PreferenceCategory
+    	android:title="@string/category_blx_title">
+	    <ListPreference
+	        android:key="blx"
+	        android:title="@string/blx_title_head"
+	        android:summary="@string/blx_summary_head"
+	        android:entries="@array/blx_entries"
+	        android:entryValues="@array/blx_values"
+	        android:defaultValue="95" />
+	</PreferenceCategory>
+
+	<PreferenceCategory
+	android:title="@string/category_backlightdisable_title">
+	    <CheckBoxPreference
+	        android:key="backlight_disable"
+	        android:title="@string/backlightdisable_title_head"
+	        android:summary="@string/backlightdisable_summary_head"
+	        android:defaultValue="0" />
+	</PreferenceCategory>
+
+	<PreferenceCategory
+	android:title="@string/category_wifi_pm_title">
+	    <CheckBoxPreference
+	        android:key="wifi_pm"
+	        android:title="@string/wifi_pm_title_head"
+	        android:summary="@string/wifi_pm_summary_head"
+	        android:defaultValue="N" />
+	</PreferenceCategory>
+
+	<PreferenceCategory
+   	    android:title="@string/category_screen_title">
+	    <Preference 
+	    android:key="gsensor"
+	    android:title="@string/g_sensor_title"
+	    android:summary="@string/g_sensor_summary" >
+	    <intent android:action="com.cyanogenmod.settings.device.GSensor"/>
+	    </Preference>
+	</PreferenceCategory>
+
+        <PreferenceScreen
+               android:title="@string/cpu_title"
+               android:summary="@string/cpu_summary" >
+       <intent android:action="android.intent.action.MAIN"
+               android:targetPackage="com.bvalosek.cpuspy"
+               android:targetClass="com.bvalosek.cpuspy.ui.HomeActivity" />
+       </PreferenceScreen>
+
+</PreferenceScreen>

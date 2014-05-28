@@ -118,9 +118,6 @@ PRODUCT_PACKAGES += \
     libgps.utils \
     libloc_adapter \
     libloc_eng \
-    libloc_api_v02 \
-    libloc_api-rpc-qc \
-    libloc_api_rpcgen \
     gps.conf \
     sap.conf \
 
@@ -136,16 +133,6 @@ PRODUCT_PACKAGES += \
     libOmxAmrEnc \
     libOmxEvrcEnc \
     libOmxQcelp13Enc \
-
-# Qcom Close Source
-PRODUCT_PACKAGES += \
-    libmmosal \
-    libmmparser \
-    libExtendedExtractor \
-    libOmxAacDec \
-    libOmxAmrwbplusDec \
-    libOmxWmaDec \
-    libaudioparsers \
 
 PRODUCT_PACKAGES += \
     firmware_init \
@@ -167,6 +154,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     Torch \
+    NitroParts
 
 # Charger mode
 PRODUCT_PACKAGES += \

@@ -24,6 +24,8 @@ on boot
     chmod 0660 /sys/class/timed_output/vibrator/amp
     chown system system /sys/module/bcmdhd/parameters/wifi_pm
     chmod 0660 /sys/module/bcmdhd/parameters/wifi_pm
+    chown system system /sys/class/input/input0/acc_cal
+    chmod 0660 /sys/class/input/input0/acc_cal
     chown system system /sys/class/misc/batterylifeextender/charging_limit
     chmod 0660 /sys/class/misc/batterylifeextender/charging_limit
     mkdir /data/misc/bluetooth 0770 bluetooth bluetooth
