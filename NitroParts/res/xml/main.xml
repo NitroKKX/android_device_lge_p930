@@ -48,7 +48,7 @@
 	    android:key="gsensor"
 	    android:title="@string/g_sensor_title"
 	    android:summary="@string/g_sensor_summary" >
-	    <intent android:action="com.cyanogenmod.settings.device.GSensor"/>
+	    <intent android:action="com.nitro.settings.device.GSensor"/>
 	    </Preference>
 	</PreferenceCategory>
 

@@ -17,7 +17,7 @@
 
     <string name="category_screen_title">Датчики</string>
     <string name="g_sensor_title">Горизонтальная калибровка</string>
-    <string name="g_sensor_summary">Горизонтальная калибровка используется в Акселерометром</string>
+    <string name="g_sensor_summary">Горизонтальная калибровка используется Акселерометром</string>
     <string name="gsensor_ready">Положите телефон на ровную поверхность и нажмите Калибровка</string>
     <string name="gsensor_calibrating">Калибруется. Не двигайте устройство. Пожалуйста подождите...</string>
     <string name="gsensor_nofile">Неудалось найти значение. Попробуйте еще раз</string>
