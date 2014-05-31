@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
 # Permission files
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
+    frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml \
     frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
@@ -94,12 +95,12 @@ PRODUCT_PACKAGES += \
     libqservice \
     libtilerenderer \
     libvirtual \
-    libI420colorconvert \
+    libc2dcolorconvert \
 
 PRODUCT_PACKAGES += \
     libFFTEm \
     libmlFIFO \
-    lights.iprj \
+    lights.msm8660 \
     libtinyalsa \
     libaudio-resampler \
     audio_policy.conf \
