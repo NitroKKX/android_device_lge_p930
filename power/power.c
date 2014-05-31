@@ -270,13 +270,17 @@ static void power_hint(struct power_module *module, power_hint_t hint,
     }
 
     switch(hint) {
+#if 0
         case POWER_HINT_VSYNC:
         break;
+#endif
         case POWER_HINT_INTERACTION:
-        break;
+            break;
         case POWER_HINT_VIDEO_ENCODE:
             process_video_encode_hint(data);
-        break;
+            break;
+        default:
+             break;
     }
 }
 
