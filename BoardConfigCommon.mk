@@ -12,6 +12,7 @@ TARGET_CPU_SMP := true
 TARGET_DISABLE_ARM_PIE := true
 
 ARCH_ARM_HIGH_OPTIMIZATION := true
+ARCH_ARM_HAVE_32_BYTE_CACHE_LINE := true
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
