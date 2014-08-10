@@ -1,7 +1,5 @@
 LOCAL_PATH:= $(call my-dir)
 
-include $(LOCAL_PATH)/build.mk
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := firmware_init
 LOCAL_MODULE_TAGS := optional
