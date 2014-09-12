@@ -1,0 +1,15 @@
+[
+ {
+   "remote": "gh",
+   "repository":  "TeamFahQ/android_vendor_lge_p930",
+   "target_path": "vendor/lge/p930",
+   "branch":      "master"
+ },
+ {
+   "remote": "gh",
+   "repository":  "TeamFahQ/kernel_lge_iproj",
+   "target_path": "kernel/lge/iproj",
+   "branch":      "master"
+ }
+]
+
