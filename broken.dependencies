@@ -1,21 +1,15 @@
 [
  {
    "remote": "gh",
-   "repository":  "TeamFahQ/android_vendor_lge_p930",
+   "repository":  "NitroKKX/android_vendor_lge_p930",
    "target_path": "vendor/lge/p930",
-   "branch":      "master"
- },
- {
-   "remote": "gh",
-   "repository": "CyanogenMod/android_device_lge_iprj-common",
-   "target_path": "device/lge/iprj-common",
    "branch":      "cm-11.0"
  },
  {
    "remote": "gh",
-   "repository":  "TeamFahQ/kernel_lge_iproj",
+   "repository":  "NitroKKX/kernel_lge_iproj",
    "target_path": "kernel/lge/iproj",
-   "branch":      "master"
+   "branch":      "cm-11.0"
  }
 ]
 
