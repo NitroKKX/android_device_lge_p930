@@ -17,7 +17,7 @@ TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 
-TARGET_PREBUILT_KERNEL := device/lge/p930/kernel
+# TARGET_PREBUILT_KERNEL := device/lge/p930/kernel
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=iprj vmalloc=580M lpj=67667 msm_rtb.filter=0x0
 BOARD_KERNEL_BASE := 0x40200000
 BOARD_KERNEL_PAGESIZE := 2048
