@@ -147,23 +147,29 @@ BOARD_SEPOLICY_DIRS += \
         device/lge/p930/sepolicy
 
 BOARD_SEPOLICY_UNION += \
-	genfs_contexts \
 	app.te \
 	bluetooth.te \
 	device.te \
 	domain.te \
 	drmserver.te \
-	file.te \
 	file_contexts \
+	files \
+	file.te \
+	genfs_contexts \
 	hci_init.te \
-	init_hell.te \
+	healthd.te \
+	init.te \
+	init_shell.te \
 	keystore.te \
-	mediaserver.te \
 	kickstart.te \
+	mediaserver.te \
 	rild.te \
 	surfaceflinger.te \
 	system.te \
 	ueventd.te \
-	wpa.te
+	untrusted_app.te \
+	vold.te \
+	wpa.te \
+	wpa_socket.te
 
 BOARD_HARDWARE_CLASS := device/lge/p930/cmhw/

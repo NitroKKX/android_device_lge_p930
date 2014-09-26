@@ -1,11 +1,11 @@
+# Inherit device configuration
+$(call inherit-product, device/lge/p930/p930.mk)
+
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/broken/config/gsm.mk)
 
 # Inherit some common broken stuff.
 $(call inherit-product, vendor/broken/config/common_full_phone.mk)
-
-# Inherit device configuration
-$(call inherit-product, device/lge/p930/p930.mk)
 
 PRODUCT_NAME := broken_p930
 PRODUCT_RELEASE_NAME := OptimusLTE
