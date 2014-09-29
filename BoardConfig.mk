@@ -8,8 +8,8 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := scorpion
 #TARGET_DISABLE_ARM_PIE := true
 
-TARGET_KERNEL_CONFIG := miro_jbskt_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/iproj
+TARGET_KERNEL_CONFIG := cyanogenmod_p930_defconfig
+TARGET_KERNEL_SOURCE := kernel/lge/iproj-lz
 TARGET_SPECIFIC_HEADER_PATH := device/lge/p930/include
 
 # Optimizations

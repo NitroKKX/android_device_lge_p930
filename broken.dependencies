@@ -7,9 +7,9 @@
  },
  {
    "remote": "gh",
-   "repository":  "NitroKKX/kernel_lge_iproj",
+   "repository":  "LightningZap/kernel_lge_iproj-lz",
    "target_path": "kernel/lge/iproj",
-   "branch":      "cm-11.0"
+   "branch":      "kk"
  }
 ]
 
