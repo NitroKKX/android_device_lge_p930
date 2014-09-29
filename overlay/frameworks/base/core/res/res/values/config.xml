@@ -31,6 +31,7 @@
     <!-- Device supports LED flashlight -->
 <add-resource type="bool" name="config_enableTorch">true</add-resource>
 
+    <!-- Workaround for devices with broken keyboards -->
     <bool name="config_forceDisableHardwareKeyboard">true</bool>
 
     <!-- Performance profiles
