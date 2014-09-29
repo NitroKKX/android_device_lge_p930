@@ -8,7 +8,7 @@
  {
    "remote": "gh",
    "repository":  "LightningZap/kernel_lge_iproj-lz",
-   "target_path": "kernel/lge/iproj",
+   "target_path": "kernel/lge/iproj-lz",
    "branch":      "kk"
  }
 ]
