@@ -26,6 +26,12 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01800000
 TARGET_BOARD_PLATFORM := msm8660
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
 
+#TARGET_GCC_VERSION_EXP := 4.8
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7
+#TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.10
+TARGET_TOOLS_PREFIX := prebuilts/gcc/linux-x86/arm/linaro-4.7/bin/arm-linux-androideabi-
+#TARGET_TOOLS_PREFIX := prebuilts/gcc/linux-x86/arm/arm-eabi-4.7/bin/arm-eabi-
+
 TARGET_KERNEL_CONFIG := miro_jbskt_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/iproj
 TARGET_SPECIFIC_HEADER_PATH := device/lge/p930/include
