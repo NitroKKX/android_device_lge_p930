@@ -15,6 +15,3 @@ type kickstart_device, dev_type;
 
 # SMD device, used by hci_qcomm_init
 type smd_device, dev_type;
-
-# RF kill device, used by wpa
-type rfkill_device, dev_type;

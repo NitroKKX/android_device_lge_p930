@@ -29,13 +29,14 @@
     <bool name="config_automatic_brightness_available">true</bool>
 
     <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">true</bool>
+<add-resource type="bool" name="config_enableTorch">true</add-resource>
 
+    <!-- Workaround for devices with broken keyboards -->
     <bool name="config_forceDisableHardwareKeyboard">true</bool>
 
-    <!-- Performance profiles -->
+    <!-- Performance profiles
     <string name="config_perf_profile_prop">sys.perf.profile</string>
-    <string name="config_perf_profile_default_entry">1</string>
+    <string name="config_perf_profile_default_entry">1</string> -->
 
     <!-- SD card is hot-pluggable on this platform -->
     <bool name="config_batterySdCardAccessibility">true</bool>
@@ -226,5 +227,8 @@
    <!-- Device type information conforming to Annex B format in WiFi Direct specification.
     The default represents a dual-mode smartphone -->
     <string translatable="false" name="config_wifi_p2p_device_type">1-0050F204-1</string>
+
+ <!-- Set button timeout duration -->
+<add-resource type="bool" name="config_show_ButtonDur">true</add-resource>
 
 </resources>

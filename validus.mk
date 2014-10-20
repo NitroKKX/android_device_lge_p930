@@ -1,6 +1,7 @@
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/validus/config/gsm.mk)
 
+# Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
@@ -8,7 +9,7 @@ TARGET_SCREEN_WIDTH := 720
 $(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/p930/p930.mk)
+$(call inherit-product, device/lge/p930/full_p930.mk)
 
 PRODUCT_NAME := validus_p930
 PRODUCT_RELEASE_NAME := OptimusLTE

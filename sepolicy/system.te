@@ -7,5 +7,4 @@ allow system diag_device:chr_file rw_file_perms;
 allow system qmux_radio_socket:sock_file create_file_perms;
 allow system qmux_radio_socket:dir rw_dir_perms;
 
-#XXX allow system oncrpc_device:dir r_dir_perms;
-#XXX allow system oncrpc_device:chr_file rw_file_perms;
+allow system wpa_socket:unix_dgram_socket sendto;

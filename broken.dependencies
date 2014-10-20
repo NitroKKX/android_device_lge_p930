@@ -1,0 +1,15 @@
+[
+ {
+   "remote": "gh",
+   "repository":  "NitroKKX/android_vendor_lge_p930",
+   "target_path": "vendor/lge/p930",
+   "branch":      "cm-11.0"
+ },
+ {
+   "remote": "gh",
+   "repository":  "LightningZap/kernel_lge_iproj-lz",
+   "target_path": "kernel/lge/iproj-lz",
+   "branch":      "kk"
+ }
+]
+
